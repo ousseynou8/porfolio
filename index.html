@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="shortcut icon" href="images/DSC_0061.jpg" type="image/x-icon">   
+    <title>PortFolio</title>
+    <!-- Bootstrap CSS -->
+     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Jquery-->
+
+    <script src="js/anime.min.js"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="0" tabindex="0">
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bgcolor" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase" id="logo" href="#">PortFolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" role="tablist"  href="#about">Accueil</a>
+                        <a class="nav-link" role="tablist"  href="#portfolio">PortFolio</a>
+                        <a class="nav-link contacts" role="tablist" href="#contact">Contact</a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <section id="about" class="container-fluid slider">
+            <div id="profile-picture" class="col-8 col-lg-4" >
+                <img src="images/DSC_0061.jpg" alt="Ousseynou" id="image" class="wow backInLeft" data-wow-duration = "1s" data-wow-delay ="1.5s">
+            </div>
+            <div class="heading">
+                <h1>Hello, C'est Fofana Ousseynou</h1>
+                <h3 class="wow fadeInLeftBig" data-wow-duration = "1s" data-wow-delay ="1.5s" data-wow-offset = "3">
+                    <span id="typed"></span>Junior</h3>
+                <a id="button" href="#" class="btn btn-outline-light button1 ">Télécharger CV</a>
+
+                <!--download=""-->
+            </div>
+        </section>
+
+
+    </header>
+    <!--
+     <section id="skills">
+        <div class="red-divider"></div>
+
+        <h2>Compétences</h2>
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-4 mb-2" style="position: relative;">
+                    <div class="animate__animated animate__lightSpeedInRight">
+                        <img src="images/html5.svg" alt="" width="150" class="img-responsive img">
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 mb-2" style="position: relative;">
+                    <div class="animate__animated animate__lightSpeedInRight">
+                        <img src="images/javascript.svg" alt="" width="150" class="img-responsive img">
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 mb-2" style="position: relative;">
+                    <div class="animate__animated animate__lightSpeedInRight">
+                        <img src="images/bootstrap-4.svg" alt="" width="150" class="img-responsive img">
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-4 mb-2 mt-5">
+                    <div class="animate__animated animate__lightSpeedInRight">
+                        <img src="images/jquery.svg" alt="" width="150" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-2 mt-4">
+                    <div class="animate__animated animate__lightSpeedInRight">
+                        <img src="images/php-1.svg" alt="" width="150" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-2">
+                    <div class="animate__animated animate__lightSpeedInRight">
+                        <img src="images/css3.svg" alt="" width="150" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!--Experience-->
+
+    <!-- <section id="experience">
+
+        <div class="container">
+            <div class="white-divider"></div>
+       
+                <h2>Expérience Professionelle</h2>
+   
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel animate__animated animate__backInLeft">
+                            <div class="timeline-heading">
+                                <h3>Goumal Info</h3>
+                                <h4>Administrateur du site</h4>
+                                <p class="text-muted"><small class="fas fa-clock"></small> Depuis 2018</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Mettre à jour les informations du site</p>
+                                <p>Maintenance du site</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel animate__animated animate__backInRight">
+                            <div class="timeline-heading">
+                                <h3>Webforce3 Paris4</h3>
+                                <h4>Apprenti Développeur Web</h4>
+                                <p class="text-muted"><small class="fas fa-clock"></small> 2020</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Projet en Groupe [Front-End]</p>
+                                <p>Projet en Groupe [Back-End]</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </section> -->
+
+    <!--Portfolio-->
+    <!--
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="container " style="position: relative;">         
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <a href="http://www.google.com" target="_blank">
+                        <img class="img-thumbnail" src="images/head.jpg" alt="youtube">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12 d-none">
+                    <a href="http://www.twitter.com" target="_blank">
+                        <img class="img-thumbnail" src="images/head.jpg" alt="twitter retweet">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12d-none">
+                    <a href="http://www.facebook.com" target="_blank">
+                        <img class="img-thumbnail" src="images/head.jpg" alt="facebook video">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+ -->
+
+    <main class="container-fluid">
+        <hr style="height: 5px; background-color:aliceblue">
+
+        <section class="clothing" id="portfolio">
+            <h2 class="p-3 wow slideInLeft" data-wow-offset="1.5"  data-wow-iteration="1.5">Mes Réalisations</h2>
+            <div>
+                <article class="wow fadeInLeftBig" data-wow-duration = "1s" data-wow-delay ="1s">
+                    <!--En 1025px la balise <article> est tranformée en conteneur flex -->
+                    <div >
+                        <!--Cette <div> va permettre de regrouper l'image, le titre et le texte. Cette div est donc un items de la balise <article>-->
+                        <img  src="./images/head.jpg" alt="tshirt #1" />
+                        <h3>Projet cms</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia nisi porttitor
+                            risus consequat, non placerat turpis dapibus. Mauris non purus augue.</p>
+                    </div>
+                    <a href="#">En savoir plus</a>
+                    <!--La balise <a> est elle aussi un items de la balise <article>-->
+                </article>
+
+                <article class="wow fadeInUpBig" data-wow-duration = "1s" data-wow-delay ="1s">
+                    <div>
+                        <img src="./images/head.jpg" alt="Photo de la moto #2" />
+                        <h3>Projet Groupe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia nisi porttitor
+                            risus consequat, non placerat turpis dapibus. Mauris non purus augue.</p>
+                    </div>
+                    <a href="#">En savoir plus</a>
+                </article>
+
+                <article class="wow fadeInDownBig" data-wow-duration = "1s" data-wow-delay ="1s">
+                    <div>
+                        <img src="./images/head.jpg" alt="Photo de la moto #3" />
+                        <h3>Projet Music</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia nisi porttitor
+                            risus consequat, non placerat turpis dapibus. Mauris non purus augue.</p>
+                    </div>
+                    <a href="#">En savoir plus</a>
+                </article>
+
+                <article class="wow fadeInRightBig" data-wow-duration = "1s" data-wow-delay ="1s">
+                    <div>
+                        <img src="./images/head.jpg" alt="Photo de la moto #4" />
+                        <h3>Projet Bootstrap</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia nisi porttitor
+                            risus consequat, non placerat turpis dapibus. Mauris non purus augue.</p>
+                    </div>
+                    <a href="#">En savoir plus</a>
+                </article>
+            </div>
+        </section>
+
+
+
+
+
+
+        <hr style="height: 5px; background-color:aliceblue">
+
+
+
+         
+            <section class="container-fluid p-5" id="contact">
+                <h2 class="text-center p-3">Contact</h2>           
+
+                <div class="row m-3">
+
+                    <div class="col-lg-6 col-md-6 mb-3 wow rubberBand" data-wow-duration = "6s">
+                        <div class="input-group input-group-lg">
+
+                            <input type="text" name="nom" class="form-control" required placeholder="Full name">
+                        </div><br>
+                        <div class="input-group input-group-lg">
+
+                            <input type="text" name="email" class="form-control" placeholder="Email address">
+                        </div><br>
+                        <div class="input-group input-group-lg">
+
+                            <input type="text" name="tel" class="form-control" placeholder="Phone number">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 ">
+                        <div class="input-group">
+                            <textarea cols="80" rows="7" class="form-control" placeholder="Votre Message"></textarea>
+                        </div>
+                        <button class="btn btn-lg btn-outline-light mt-3">Envoyer votre Message</button>
+                    </div>
+                </div>
+          
+        </section>
+
+        <hr style="height: 5px; background-color:aliceblue">
+    </main>
+
+    <footer class="pt-5 pb-3">
+        <div class="container-fluid">
+            <div class="row text-center">
+
+                <div class="col-sm-12 col-md-6 col-lg-6 text-jcenter">
+                    <h4><u>Contact us</u></h4>
+                    <p style="display:flex; flex-direction: column;" class="p-3">
+                       <span><i class="fas fa-home mr-2"></i> : 28 rue du 18 juin 93220</span>
+                        <span><i class="fas fa-envelope mr-2"></i> : ousseynoufofana15@gmail.com</span>
+                        <span><i class="fas fa-phone mr-2"></i> : 07.53.58.87.59</span>
+                    </p>
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-6 sociaux" >
+                    <h4 class="mb-5"><u>Restez en Contact</u></h4>                
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-lg-12 text-center">
+                    <a href="#about" id="monBouton">
+                        <span class="fas fa-chevron-up"></span>
+                    </a>
+                    <p class="small mb-0">© Copyright <span id="year"> </span>   | Oussey Fof |  Tous droits reservès  </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="js/wow.min.js"></script>
+   <script src="js/index.js"></script>
+</body>
+
+</html>
