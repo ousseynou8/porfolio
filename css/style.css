@@ -265,12 +265,13 @@ main .clothing article a:hover {
 /*footer media*/
  
 
-footer .sociaux a {
+footer .sociaux a,a {
   border: 1px solid #fff;    
   display: inline-flex;
   border-radius: 1rem;
   color: white;
   padding: .5rem;
+  text-decoration: none !important;
 }
 
 footer a:hover {
