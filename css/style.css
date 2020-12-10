@@ -265,7 +265,7 @@ main .clothing article a:hover {
 /*footer media*/
  
 
-footer .sociaux a,a {
+footer .sociaux a, footer a {
   border: 1px solid #fff;    
   display: inline-flex;
   border-radius: 1rem;
