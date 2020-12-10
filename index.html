@@ -54,7 +54,8 @@
                 <h3 class="wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="1.5s" data-wow-offset="3">
                     <span id="typed"></span>Junior
                 </h3>
-                <a id="button" href="#" class="btn btn-outline-light button1">Télécharger CV</a>
+                <a id="button" href="./telecharger_cv/CV_2020-11-27_Ousseynou_Fofana.pdf" download
+                    class="btn btn-outline-light button1">Télécharger CV</a>
 
                 <!--download=""-->
             </div>
@@ -68,61 +69,223 @@
             <h2 class="p-3 wow slideInLeft" data-wow-offset="1.5" data-wow-iteration="1.5">
                 Mes Réalisations
             </h2>
-            <div>
-                <article class="wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="1s">
-                    <!--En 1025px la balise <article> est tranformée en conteneur flex -->
-                    <div>
-                        <!--Cette <div> va permettre de regrouper l'image, le titre et le texte. Cette div est donc un items de la balise <article>-->
-                        <img src="./images/head.jpg" alt="tshirt #1" />
-                        <h3>Projet cms</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Maecenas lacinia nisi porttitor risus consequat, non placerat
-                            turpis dapibus. Mauris non purus augue.
-                        </p>
-                    </div>
-                    <a href="#">En savoir plus</a>
-                    <!--La balise <a> est elle aussi un items de la balise <article>-->
-                </article>
 
-                <article>
-                    <div>
-                        <img src="./images/head.jpg" alt="Photo de la moto #2" />
-                        <h3>Projet Groupe</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Maecenas lacinia nisi porttitor risus consequat, non placerat
-                            turpis dapibus. Mauris non purus augue.
-                        </p>
-                    </div>
-                    <a href="#">En savoir plus</a>
-                </article>
+            <!-- Nav tabs -->
+            <nav class="text-center">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true">Projet Perso 1</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false">Projet Group</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="messages-tab" data-bs-toggle="tab" href="#messages" role="tab"
+                            aria-controls="messages" aria-selected="false">Group Music</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="settings-tab" data-bs-toggle="tab" href="#settings" role="tab"
+                            aria-controls="settings" aria-selected="false">Projet Perso 2</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
-                <article  >
-                    <div>
-                        <img src="./images/head.jpg" alt="Photo de la moto #3" />
-                        <h3>Projet Music</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Maecenas lacinia nisi porttitor risus consequat, non placerat
-                            turpis dapibus. Mauris non purus augue.
-                        </p>
-                    </div>
-                    <a href="#">En savoir plus</a>
-                </article>
 
-                <article class="wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1s">
-                    <div>
-                        <img src="./images/head.jpg" alt="Photo de la moto #4" />
-                        <h3>Projet Bootstrap</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Maecenas lacinia nisi porttitor risus consequat, non placerat
-                            turpis dapibus. Mauris non purus augue.
-                        </p>
+                    <div class="row">
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="#">En savoir plus</a>
-                </article>
+
+                </div>
+                <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+
+                    <div class="row">
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+
+
+
+                    <div class="row">
+
+                        <div class="col-lg-3 col-sm-6 col-md-4 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-4 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-4 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+
+
+
+                    <div class="row">
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 mt-3">
+                            <div class="card article">
+                                <img src="./images/head.jpg" class="card-img-top " alt="tshirt #1" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Projet cms</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
             </div>
         </section>
 

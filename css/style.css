@@ -180,16 +180,7 @@ footer .fas {
 .fab {
   font-size: 2rem !important;
 }
-
-/**
-
-@media screen and (min-width:568px){
-    #portfolio .img{
-        object-fit: contain !important;
-    }
-}
-*/
-
+ 
 /* MAIN INDEX */
 main {
   margin: 0 30px;
@@ -221,24 +212,26 @@ main h2 {
   font-size: 2rem;
 }
 
-main .clothing article {
-  background-color: #444;
-  color: white;
-  margin-bottom: 35px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+ .article {
+  border:1px solid #fff !important; 
+  color: white !important;
+  margin-bottom: 35px !important;
+  padding: 20px !important;
+  text-align: center !important;
+  box-shadow: 0 0 0.3rem 0 rgb(0, 0, 0) !important;
+  background-color: transparent !important;
+ 
 }
 
-main .clothing article img {
+.article img {
   width: 100%;
   filter: grayscale(100%);
 }
 
-main .clothing article img:hover {
-  width: 100%;
+.article img:hover {
+  
   filter: none;
-}
+} 
 
 main .clothing h3 {
   border-bottom: 2px solid #ff9d00;
@@ -356,26 +349,18 @@ footer #monBouton {
 
   /* MAIN INDEX */
   /*section clothing*/
-  main .clothing > div {
+  /*main .article > div {*/
     /*On vise uniquement la <did> directement enfant de l'Ã©lÃ©ment ayant pour class="clothing"*/
-    display: flex;
-    flex-wrap: wrap; /*On force le retour Ã  la ligne des items*/
-    justify-content: space-between;
+  /*
+    display: flex; */
+   /* flex-wrap: wrap; /*On force le retour Ã  la ligne des items*/
+    /*justify-content: space-between;
   }
+*/
+ 
 
-  main .clothing article {
-    flex-basis: 48%;
-  }
-
-  /*section media*/
-  main .media video {
-    display: block;
-  }
-
-  /*section maps*/
-  main .maps {
-    display: block;
-  }
+ 
+ 
 }
 
 @media screen and (min-width: 1025px) {
@@ -396,31 +381,31 @@ footer #monBouton {
 
   /* MAIN INDEX */
   /*section clothing*/
-  main .clothing > div {
+  /* main .article > div {
     display: flex;
     flex-wrap: nowrap; /*On annule le wrap appliquÃ© plus haut dans le media query 768px*/
-    justify-content: space-between;
-  }
+    /* justify-content: space-between;
+  } */
 
-  main .clothing article {
-    display: flex;
+  main .article {
+    /* display: flex;
     flex-direction: column;
     flex-basis: 23%;
-    justify-content: space-between;
+    justify-content: space-between; */
   }
 
-  main .clothing article:hover {
+  main .article:hover {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 1);
-    transform: scale(1.05);
+    transform: scale(1);
   }
 
-  main .clothing article:first-of-type {
+  /* main .article:first-of-type {
     margin-left: 0;
-  }
+  } */
 
-  main .clothing article:last-of-type {
+  /* main .article:last-of-type {
     margin-right: 0;
-  }
+  } */
 
   /*section media*/
   main .media div {
