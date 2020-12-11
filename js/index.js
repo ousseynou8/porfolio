@@ -36,10 +36,23 @@ var typed = new Typed("#typed", {
 
 
 // })
-var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-  target: '#navbar'
-})
-
+ 
 
 
 new WOW().init();
+
+
+
+
+
+var triggerTabList = [].slice.call(document.querySelectorAll('#myTab a'))
+triggerTabList.forEach(function (triggerEl) {
+  var tabTrigger = new bootstrap.Tab(triggerEl)
+
+  triggerEl.addEventListener('click', function (event) {
+    event.preventDefault()
+    tabTrigger.show()
+  })
+})
+
+
