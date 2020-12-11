@@ -43,11 +43,3 @@ var scrollSpy = new bootstrap.ScrollSpy(document.body, {
 
 
 new WOW().init();
-
-
-
-
-
-
-
-

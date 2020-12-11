@@ -67,18 +67,17 @@ body {
   color: white !important;
   background-color: transparent !important;
 }
- 
 
 .navbar-nav .contacts {
   border: 1px solid white;
   border-radius: 50px;
   background-color: black;
 }
-#image{
+#image {
   border-radius: 6rem !important;
 }
 #typed {
-  color: rgb(255 157 0)!important;
+  color: rgb(255 157 0) !important;
 }
 
 /* ABOUT */
@@ -93,16 +92,7 @@ body {
 }
 
 #about .heading h1 {
-  color: #fff;    
-}
-
-.button1 {
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-top: 20px;
-  padding: 18px 50px;
-  border-radius: 3px;
-  transition: all 1s ease-in !important;
+  color: #fff;
 }
 
 section .heading {
@@ -113,64 +103,33 @@ section .heading {
 #profile-picture {
   text-align: center;
   margin: 0 auto;
-  /* animation: flipInX; */
-  /* referring directly to the animation's @keyframe declaration */
-  /* animation-duration: 5s; */
-  /* don't forget to set a duration! */
 }
-
-.profile-picture img:hover {
-  /* animation: zoomOut;
-  animation-duration: 5s; */
-  /* don't forget to set a duration! */
-}
-
- 
-/* SKILLS */
-
-#skills {
-  background: #fff;
-  padding-top: 85px !important;
-  height: 100vh;
-}
-
-#skills .heading h2 {
-  color: black;
-  font-size: 4rem !important;
-}
-
- 
-/* #skills .progress-bar {
-    background: royalblue;
-} */
 
 ul li {
   list-style: none;
 }
+
+#button {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 18px 50px;
+  border-radius: 3px;
+  transition: all 1s ease-in !important;
+}
+
 
 /*Contact section */
 
 .contact p {
   color: white;
 }
- 
-
-.contact {
-  /* padding: 24px 0px 80px;
-  text-align: center;
-  background-color: #00000075; /*royalblue; */
-  /* height: 100vh;
-  max-height: calc(100vh - 41vh);
-  overflow: auto; */
-}
 
 /* FOOTER */
 
 footer {
-  /* background: rgb(0, 0, 0); */  
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
-  color: rgba(255, 255, 255, 0.75);  
-   
+  color: rgba(255, 255, 255, 0.75);
 }
 footer .fas {
   font-size: 25px;
@@ -180,7 +139,7 @@ footer .fas {
 .fab {
   font-size: 2rem !important;
 }
- 
+
 /* MAIN INDEX */
 main {
   margin: 0 30px;
@@ -208,19 +167,18 @@ main h1 span {
 main h2 {
   border-left: 3px solid rgba(0, 0, 0, 0.075);
   border-top: 3px solid rgba(0, 0, 0, 0.075);
-  letter-spacing: 1px;   
+  letter-spacing: 1px;
   font-size: 2rem;
 }
 
- .article {
-  border:1px solid #fff !important; 
+.article {
+  border: 1px solid #fff !important;
   color: white !important;
   margin-bottom: 35px !important;
   padding: 20px !important;
   text-align: center !important;
   box-shadow: 0 0 0.3rem 0 rgb(0, 0, 0) !important;
   background-color: transparent !important;
- 
 }
 
 .article img {
@@ -229,9 +187,8 @@ main h2 {
 }
 
 .article img:hover {
-  
   filter: none;
-} 
+}
 
 main .clothing h3 {
   border-bottom: 2px solid #ff9d00;
@@ -256,33 +213,31 @@ main .clothing article a:hover {
 }
 
 /*footer media*/
- 
 
-footer .sociaux a, footer a {
-  border: 1px solid #fff;    
+footer .sociaux a,
+footer a {
+  border: 1px solid #fff;
   display: inline-flex;
   border-radius: 1rem;
   color: white;
-  padding: .5rem;
+  padding: 0.5rem;
   text-decoration: none !important;
 }
 
 footer a:hover {
- 
   text-decoration: none;
-  background-color:  #ff9d00; 
+  background-color: #ff9d00;
   transition: all 1s ease-in;
 }
 
 footer #monBouton {
-  border: 1px solid #fff;  
+  border: 1px solid #fff;
   font-size: 1rem;
   display: inline-flex;
   border-radius: 1rem;
-  color: white; 
+  color: white;
   padding: 0.4rem 2rem;
 }
- 
 
 /*ANIMATION*/
 @keyframes bounce {
@@ -315,13 +270,7 @@ footer #monBouton {
 /*660px*/
 @media screen and (min-width: 660px) {
   header {
-    background: linear-gradient(
-      90deg,
-      white 0%,
-      white 50%,
-      #333 50%,
-      #333 100%
-    );
+    background: linear-gradient(90deg, white 0%, white 50%, #333 50%, #333 100%);
   }
 }
 
@@ -329,13 +278,7 @@ footer #monBouton {
 @media screen and (min-width: 768px) {
   /* HEADER */
   header {
-    background: linear-gradient(
-      130deg,
-      white 0%,
-      white 50%,
-      #333 50%,
-      #333 100%
-    );
+    background: linear-gradient(130deg, white 0%, white 50%, #333 50%, #333 100%);
   }
 
   header img {
@@ -350,17 +293,13 @@ footer #monBouton {
   /* MAIN INDEX */
   /*section clothing*/
   /*main .article > div {*/
-    /*On vise uniquement la <did> directement enfant de l'Ã©lÃ©ment ayant pour class="clothing"*/
+  /*On vise uniquement la <did> directement enfant de l'Ã©lÃ©ment ayant pour class="clothing"*/
   /*
     display: flex; */
-   /* flex-wrap: wrap; /*On force le retour Ã  la ligne des items*/
-    /*justify-content: space-between;
+  /* flex-wrap: wrap; /*On force le retour Ã  la ligne des items*/
+  /*justify-content: space-between;
   }
 */
- 
-
- 
- 
 }
 
 @media screen and (min-width: 1025px) {
@@ -384,7 +323,7 @@ footer #monBouton {
   /* main .article > div {
     display: flex;
     flex-wrap: nowrap; /*On annule le wrap appliquÃ© plus haut dans le media query 768px*/
-    /* justify-content: space-between;
+  /* justify-content: space-between;
   } */
 
   main .article {
