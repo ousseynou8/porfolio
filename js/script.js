@@ -10,9 +10,7 @@ $(document).ready(function () {
   $("#year").text(new Date().getFullYear());
 
   // Scroll
-  $(window).scroll(function () {
-    $("nav").toggleClass("scrolled", $(this).scrollTop() > 100);
-  });
+ 
 
   // boutonHaut
   $(function () {
